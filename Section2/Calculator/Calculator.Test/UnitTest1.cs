@@ -37,8 +37,8 @@ namespace Calculator.Test
         [Priority(2)]
         public void TestMethod2()
         {
-            System.Diagnostics.Debug.WriteLine("Debug : TM2 executed");
-            TestContext.WriteLine("TestContext : TM2 executed");
+            //System.Diagnostics.Debug.WriteLine("Debug : TM2 executed");
+            //TestContext.WriteLine("TestContext : TM2 executed");
         }
     }
 }
