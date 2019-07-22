@@ -63,6 +63,9 @@ namespace Calculator.Library.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        /// <summary>
+        ///// THROWING EXECEPTION
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(DivideByZeroException))]
         public void Divide_DenominatorIsZero_ReturnsZero()
@@ -81,7 +84,7 @@ namespace Calculator.Library.Tests
                 Assert.AreEqual("Denominator cannot be zero", ex.Message);
                 throw;
             }
-           
         }
+
     }
 }
