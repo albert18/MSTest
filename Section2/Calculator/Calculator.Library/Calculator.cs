@@ -16,8 +16,16 @@ namespace Calculator.Library
         [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
         public static int Add(int fn, int sn)
         {
-            int result = fn % sn;
-            return result;
+            if (isPositive(fn) && isPositive(sn))
+            {
+                int result = fn + sn;
+                return result;
+            }
+            else
+            {
+                throw new ArgumentException("Only Positve numbers are allowed");
+            }
+
         }
 
         /// <summary>

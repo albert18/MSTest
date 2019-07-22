@@ -86,5 +86,21 @@ namespace Calculator.Library.Tests
             }
         }
 
+        /// <summary>
+        /// Testing Private
+        /// </summary>
+        [TestMethod]
+        public void IsPositive_PositiveNumber_ReturnsTrue()
+        {
+            //Use this if method is not static
+            //PrivateObject p = new PrivateObject(typeof(Calculator));
+            //bool actual = (bool)p.Invoke("isPositive", -10);
+
+            PrivateType p = new PrivateType(typeof(Calculator));
+            bool actual = (bool)p.InvokeStatic("isPositive", 10);
+
+            Assert.IsTrue(actual);
+        }
+
     }
 }
