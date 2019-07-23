@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="OrderedTest1" storage="c:\calculator\calculator.test\orderedtest1.orderedtest" id="fcb05d50-b766-43ef-a351-faf955ecadf4" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="3a02b577-7f2e-a732-2a32-00e5eb96fd9b" name="Divide_PositiveNumbers_ReturnsPositiveQuotient_1" storage="bin\debug\calculator.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="3a02b577-7f2e-a732-2a32-00e5eb96fd9b" name="Divide_PositiveNumbers_ReturnsPositiveQuotient_1" storage="bin\debug\calculator.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="3a02b577-7f2e-a732-2a32-00e5eb96fd9b" name="Divide_PositiveNumbers_ReturnsPositiveQuotient_1" storage="bin\debug\calculator.test.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

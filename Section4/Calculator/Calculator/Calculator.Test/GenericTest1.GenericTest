@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GenericTest name="GenericTest1" storage="c:\calculator\calculator.test\generictest1.generictest" id="bf937397-8d78-4594-b589-6188b89ca98d" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Command filename="C:\Calculator\Factorial\bin\Debug\Factorial.exe" arguments="5" workingDirectory="%TestOutputDirectory%" />
+  <SummaryXmlFile path="%TestOutputDirectory%\&lt;Enter summary file name here&gt;" />
+</GenericTest>

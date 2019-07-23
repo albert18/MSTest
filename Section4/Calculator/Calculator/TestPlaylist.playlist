@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="Calculator.Library.Tests.CalculatorTests.Divide_PositiveNumeratorAndNegativeDenominator_ReturnsNegativeQuotient" /><Add Test="Calculator.Test.UnitTest1.TestMethod1" /></Playlist>
