@@ -6,6 +6,8 @@ namespace Calculator.Library.Tests
     [TestClass]
     public class CalculatorTests
     {
+        public TestContext TestContext { get; set; }
+
         [TestMethod]
         [TestCategory("Calculator")]
         [TestProperty("Test Group", "Security")]
@@ -23,6 +25,15 @@ namespace Calculator.Library.Tests
 
             // Assert
             Assert.AreEqual(expected, actual);
+            TestContext.WriteLine(TestContext.FullyQualifiedTestClassName);
+            TestContext.WriteLine(TestContext.TestName);
+
+        }
+
+        [TestCleanup]
+        public void CleanUp()
+        {
+            TestContext.WriteLine(TestContext.CurrentTestOutcome.ToString());
         }
 
         [TestMethod]
